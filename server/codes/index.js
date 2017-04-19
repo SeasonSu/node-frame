@@ -5,3 +5,6 @@ const codes = {
         return code[key]
     }
 }
+
+
+module.exports = codes

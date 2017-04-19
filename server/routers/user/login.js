@@ -33,9 +33,7 @@ router.post('/login',body, async (ctx) => {
     ctx.set('Access-Control-Allow-Origin', '*')
     let username = ctx.request.body.username
     let password = ctx.request.body.password
-    console.log(username)
     if(!username || !password){
-        console.log('1')
         ctx.body = codes.set('2')
         return
     }
@@ -52,7 +50,6 @@ router.get('/getUser/:id', async (ctx,next) => {
             id: id,
         }
     }).then((result)=>{
-        let params = JSON.stringify(result)
         ctx.body = JSON.stringify(result)
   })
 });

@@ -16,7 +16,6 @@ let routesArray = utils.getFiles(__dirname)
 routesArray.map(function(item){
     let fileName = './' + item
     if(fs.existsSync(path.resolve(__dirname, fileName))){
-        console.log(fileName)
         let routesInstance = require(fileName)
          router.use(routesInstance.routes())
     	.use(routesInstance.allowedMethods());
