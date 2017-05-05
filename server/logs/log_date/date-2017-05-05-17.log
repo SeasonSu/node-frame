@@ -1,0 +1,6 @@
+[2017-05-05 17:35:05.322] [TRACE] log_date - This is a Log4js-Test
+[2017-05-05 17:35:05.323] [DEBUG] log_date - We Write Logs with log4js
+[2017-05-05 17:35:05.323] [INFO] log_date - You can find logs-files in the log-dir
+[2017-05-05 17:35:05.323] [WARN] log_date - log-dir is a configuration-item in the log4js.json
+[2017-05-05 17:35:05.323] [ERROR] log_date - In This Test log-dir is : './logs/log_test/'
+[2017-05-05 17:50:02.455] [INFO] log_date - 调用登陆接口

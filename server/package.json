@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server":"node index.js"
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +21,7 @@
     "koa-logger": "^2.0.1",
     "koa-router": "^7.1.1",
     "koa-views": "^6.0.2",
+    "log4js": "^1.1.1",
     "mysql": "^2.13.0",
     "node.extend": "^1.1.6",
     "path": "^0.12.7",

@@ -1,6 +1,6 @@
 module.exports = {
     "base":{
-        "port":"8090"
+        "port":"9090"
     },
     "development":{
         "timezone" : "+08:00",

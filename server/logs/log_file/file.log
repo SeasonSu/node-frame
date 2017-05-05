@@ -1,0 +1,10 @@
+[2017-05-05 17:27:46.694] [TRACE] log_file - This is a Log4js-Test
+[2017-05-05 17:27:46.696] [DEBUG] log_file - We Write Logs with log4js
+[2017-05-05 17:27:46.696] [INFO] log_file - You can find logs-files in the log-dir
+[2017-05-05 17:27:46.696] [WARN] log_file - log-dir is a configuration-item in the log4js.json
+[2017-05-05 17:27:46.696] [ERROR] log_file - In This Test log-dir is : './logs/log_test/'
+[2017-05-05 17:32:48.467] [TRACE] log_file - This is a Log4js-Test
+[2017-05-05 17:32:48.469] [DEBUG] log_file - We Write Logs with log4js
+[2017-05-05 17:32:48.469] [INFO] log_file - You can find logs-files in the log-dir
+[2017-05-05 17:32:48.469] [WARN] log_file - log-dir is a configuration-item in the log4js.json
+[2017-05-05 17:32:48.469] [ERROR] log_file - In This Test log-dir is : './logs/log_test/'

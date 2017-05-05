@@ -5,6 +5,7 @@ const colors = require('colors')
 const modules = require(process.cwd() + '/services/index')
 const codes = require(process.cwd() + '/codes/index')
 const utils = require(process.cwd() + '/utils/index')
+const logs = require(process.cwd() + '/logs/index')
 /**
  * 检查用户存在
  * @param  {[type]} userName [description]
@@ -40,7 +41,7 @@ router.post('/login',body, async (ctx) => {
     // 是否存在用户
     let isExit = await checkUserExit(username)
     let data = {isExit:isExit}
-    console.log(data)
+    logs.info('调用登陆接口')
     ctx.body = utils.extend(codes.set('0'),data)
 })
 router.get('/getUser/:id', async (ctx,next) => {
