@@ -4,7 +4,8 @@ const Sequelize = require('sequelize')
 const env = process.env.NODE_ENV || 'development'
 const config = require('../config/index')[env]
 const utils = require('../utils/index')
-const sequelize = new Sequelize(config.database, config.username, config.password, config);
+const sequelize = new Sequelize(config.database, config.username, config.password, config)
+const colors = require('colors')
 
 const dbStorage = []
 const modelRoot = process.cwd() + '/models'

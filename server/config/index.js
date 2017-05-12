@@ -9,7 +9,10 @@ module.exports = {
         "database": "test",
         "host": "localhost",
         "dialect": "mysql",
-        "port":"3307"
+        "port":"3307",
+        "define": {
+            "timestamps": false
+        }
     },
     "test":{
         "timezone" : "+08:00",
@@ -18,6 +21,9 @@ module.exports = {
         "database": "test",
         "host": "localhost",
         "dialect": "mysql",
-        "port":"3307"
+        "port":"3307",
+        "define": {
+            "timestamps": false
+        }
     }
 }
